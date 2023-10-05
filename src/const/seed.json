@@ -1,0 +1,2672 @@
+[
+  {
+    "bike": [
+      {
+        "id": "36cfc38f-7e57-4ea7-83f5-61ba04aa673b",
+        "make": "Honda",
+        "model": "CBR500R",
+        "year": 21342,
+        "color": "Red",
+        "vin_number": "JH2PC4000MK001234",
+        "created_at": "2023-10-04T13:08:25.748Z",
+        "updated_at": "2023-10-05T08:14:44.872Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02a5a2dd-bfbd-41b5-9565-d9e8dc9bd2a4",
+        "make": "Yamaha",
+        "model": "YZF-R6",
+        "year": 79015,
+        "color": "Blue",
+        "vin_number": "JYARJ16E1FA000123",
+        "created_at": "2023-10-05T05:18:54.035Z",
+        "updated_at": "2023-10-05T00:46:13.228Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c00a2af-88f4-4e2b-8265-b244cbf19e74",
+        "make": "Kawasaki",
+        "model": "Ninja 650",
+        "year": 96453,
+        "color": "Black",
+        "vin_number": "JKAZXCW1XFA000456",
+        "created_at": "2023-10-04T16:55:37.063Z",
+        "updated_at": "2023-10-05T03:23:06.188Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91457a7b-ffad-43bb-bf26-7139abb02eb6",
+        "make": "Suzuki",
+        "model": "GSX-R750",
+        "year": 21853,
+        "color": "White",
+        "vin_number": "JS1GR7KA1F2100123",
+        "created_at": "2023-10-05T07:14:16.048Z",
+        "updated_at": "2023-10-05T00:28:20.605Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd133b5d-6f11-4dc1-8b6b-3233cb73db94",
+        "make": "Ducati",
+        "model": "Monster 821",
+        "year": 5839,
+        "color": "Yellow",
+        "vin_number": "ZDMKABTAAFB000789",
+        "created_at": "2023-10-04T11:59:15.317Z",
+        "updated_at": "2023-10-04T11:30:56.595Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "b69e45f2-4951-4928-8da0-240374bb112c",
+        "date": "2023-10-05T08:38:13.727Z",
+        "time": "2023-10-04T11:40:25.669Z",
+        "status": "Scheduled",
+        "notes": "Please bring your bike for service",
+        "created_at": "2023-10-04T15:59:12.057Z",
+        "updated_at": "2023-10-05T07:42:47.692Z",
+        "bike_id": "36cfc38f-7e57-4ea7-83f5-61ba04aa673b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5da56e05-6f29-45fd-be80-860f0571e56d",
+        "date": "2023-10-04T15:18:42.673Z",
+        "time": "2023-10-04T18:32:18.211Z",
+        "status": "In Progress",
+        "notes": "Check engine oil level",
+        "created_at": "2023-10-04T09:31:31.009Z",
+        "updated_at": "2023-10-05T07:33:36.409Z",
+        "bike_id": "91457a7b-ffad-43bb-bf26-7139abb02eb6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6fb9f7ce-defc-4f1b-ba75-fbfc2b09568a",
+        "date": "2023-10-05T00:48:38.096Z",
+        "time": "2023-10-05T07:58:27.643Z",
+        "status": "Completed",
+        "notes": "Replace brake pads",
+        "created_at": "2023-10-04T15:58:50.812Z",
+        "updated_at": "2023-10-04T18:27:38.818Z",
+        "bike_id": "91457a7b-ffad-43bb-bf26-7139abb02eb6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ede8d8a7-74aa-4bef-a250-7824d03fdee7",
+        "date": "2023-10-05T04:32:09.905Z",
+        "time": "2023-10-04T20:13:43.426Z",
+        "status": "Cancelled",
+        "notes": "Diagnostic test required",
+        "created_at": "2023-10-05T08:39:04.488Z",
+        "updated_at": "2023-10-05T05:03:04.364Z",
+        "bike_id": "91457a7b-ffad-43bb-bf26-7139abb02eb6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c284880-db7f-45cf-82e9-9bf022b67ba6",
+        "date": "2023-10-05T02:41:22.590Z",
+        "time": "2023-10-05T03:02:28.462Z",
+        "status": "Rescheduled",
+        "notes": "Payment due upon completion",
+        "created_at": "2023-10-04T11:15:53.116Z",
+        "updated_at": "2023-10-04T12:03:59.709Z",
+        "bike_id": "36cfc38f-7e57-4ea7-83f5-61ba04aa673b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_manager": [
+      {
+        "id": "09d212e4-a3ac-4446-9cea-063c9f051ac2",
+        "experience": 66059,
+        "management_level": "Senior",
+        "availability": "Monday to Friday",
+        "created_at": "2023-10-04T19:50:17.849Z",
+        "updated_at": "2023-10-04T11:27:53.559Z",
+        "appointment_id": "5da56e05-6f29-45fd-be80-860f0571e56d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a0c79b9-927b-4027-85e1-4615bce5606f",
+        "experience": 37146,
+        "management_level": "Assistant",
+        "availability": "Tuesday to Saturday",
+        "created_at": "2023-10-04T17:43:47.520Z",
+        "updated_at": "2023-10-04T11:38:16.379Z",
+        "appointment_id": "b69e45f2-4951-4928-8da0-240374bb112c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "694948ed-39ec-44c1-a537-cb05ba2315a4",
+        "experience": 99067,
+        "management_level": "Supervisor",
+        "availability": "Wednesday to Sunday",
+        "created_at": "2023-10-04T10:07:31.099Z",
+        "updated_at": "2023-10-04T17:51:57.145Z",
+        "appointment_id": "8c284880-db7f-45cf-82e9-9bf022b67ba6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05e4d0df-3f4a-4530-8f1b-b8a237e8527e",
+        "experience": 40017,
+        "management_level": "Manager",
+        "availability": "Thursday to Monday",
+        "created_at": "2023-10-05T00:59:51.204Z",
+        "updated_at": "2023-10-04T15:24:38.902Z",
+        "appointment_id": "6fb9f7ce-defc-4f1b-ba75-fbfc2b09568a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49b15577-9dd0-444a-a228-4b2d55099b4e",
+        "experience": 83660,
+        "management_level": "Director",
+        "availability": "Friday to Tuesday",
+        "created_at": "2023-10-05T04:54:14.636Z",
+        "updated_at": "2023-10-04T15:21:17.854Z",
+        "appointment_id": "5da56e05-6f29-45fd-be80-860f0571e56d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_engineer": [
+      {
+        "id": "1f0d1baa-e5f7-4fe9-a658-473ff8039306",
+        "experience": 43619,
+        "specialization": "Engine",
+        "availability": "Morning shift",
+        "created_at": "2023-10-05T05:44:24.108Z",
+        "updated_at": "2023-10-04T12:16:51.164Z",
+        "appointment_id": "8c284880-db7f-45cf-82e9-9bf022b67ba6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f2eb85f-c8a0-4908-a38d-6a0261ba258e",
+        "experience": 4920,
+        "specialization": "Electrical",
+        "availability": "Afternoon shift",
+        "created_at": "2023-10-04T15:14:13.198Z",
+        "updated_at": "2023-10-04T22:26:33.042Z",
+        "appointment_id": "6fb9f7ce-defc-4f1b-ba75-fbfc2b09568a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aed9c2b6-b70a-45af-bd6f-1c3806d3cb8a",
+        "experience": 64216,
+        "specialization": "Suspension",
+        "availability": "Evening shift",
+        "created_at": "2023-10-05T07:14:26.868Z",
+        "updated_at": "2023-10-04T11:31:48.316Z",
+        "appointment_id": "5da56e05-6f29-45fd-be80-860f0571e56d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24464949-d2ca-4b00-961f-51ecdb4f8d29",
+        "experience": 27111,
+        "specialization": "Brakes",
+        "availability": "Night shift",
+        "created_at": "2023-10-05T05:42:30.104Z",
+        "updated_at": "2023-10-04T13:39:03.386Z",
+        "appointment_id": "8c284880-db7f-45cf-82e9-9bf022b67ba6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d4d132c-bf71-4795-ac42-ea2b82d19225",
+        "experience": 18207,
+        "specialization": "Transmission",
+        "availability": "Weekend shift",
+        "created_at": "2023-10-04T13:25:39.021Z",
+        "updated_at": "2023-10-05T07:19:02.034Z",
+        "appointment_id": "6fb9f7ce-defc-4f1b-ba75-fbfc2b09568a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fba0efa0-894b-40a6-ad79-b7dd53563cfa",
+        "email": "Emmett82@roq.tech",
+        "firstName": "Keon",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50319521",
+        "tenantId": null
+      },
+      {
+        "reference": "e84e9062-45e4-44f1-8311-37956ce5576c",
+        "email": "Nicolas49@roq.tech",
+        "firstName": "Jude",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45844684",
+        "tenantId": null
+      },
+      {
+        "reference": "73a1d51d-1948-41c7-b1f7-23e34d474560",
+        "email": "Carolanne_Collier23@roq.tech",
+        "firstName": "Raymundo",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55579732",
+        "tenantId": null
+      },
+      {
+        "reference": "89cb0d42-88fb-43e5-8cfc-acc43cb16f6a",
+        "email": "Neil78@roq.tech",
+        "firstName": "Lyda",
+        "lastName": "Rice-Kohler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5647898",
+        "tenantId": null
+      },
+      {
+        "reference": "1a2c332d-7454-4ea3-b49e-af9ddbc029f5",
+        "email": "Daniella_Hamill35@roq.tech",
+        "firstName": "Mauricio",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81439406",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "46ac2f46-dd8b-4ec5-a51a-287dbd060ff0",
+        "make": "Honda",
+        "model": "CBR500R",
+        "year": 6254,
+        "color": "Red",
+        "vin_number": "JH2PC4000CK100001",
+        "created_at": "2023-10-04T12:59:06.331Z",
+        "updated_at": "2023-10-05T05:55:07.520Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "186d7917-c12a-4461-aa41-932d8250eb83",
+        "make": "Yamaha",
+        "model": "YZF-R6",
+        "year": 52210,
+        "color": "Blue",
+        "vin_number": "JYARJ16E3CA000002",
+        "created_at": "2023-10-04T23:08:30.298Z",
+        "updated_at": "2023-10-04T11:51:41.989Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33183421-6ce6-4160-b75b-8ebb18d63463",
+        "make": "Kawasaki",
+        "model": "Ninja 650",
+        "year": 75387,
+        "color": "Black",
+        "vin_number": "JKAEXEA10ADA00003",
+        "created_at": "2023-10-05T03:03:03.229Z",
+        "updated_at": "2023-10-05T01:14:45.137Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2c6d7c8-86ce-4145-8a11-49236143b8b1",
+        "make": "Suzuki",
+        "model": "GSX-R750",
+        "year": 70327,
+        "color": "White",
+        "vin_number": "JS1GR7MA1C2100004",
+        "created_at": "2023-10-05T00:10:11.763Z",
+        "updated_at": "2023-10-04T09:38:20.566Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a874cd40-7b5d-461b-9a40-4da97fb70373",
+        "make": "Harley-Davidson",
+        "model": "Street Glide",
+        "year": 96853,
+        "color": "Silver",
+        "vin_number": "1HD1KBM10BB000005",
+        "created_at": "2023-10-04T13:37:53.141Z",
+        "updated_at": "2023-10-04T10:10:39.653Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "36bf4297-1c92-46b0-9a42-a7b33c5e08ef",
+        "date": "2023-10-04T21:00:12.023Z",
+        "time": "2023-10-04T19:25:10.171Z",
+        "status": "Scheduled",
+        "notes": "Bring all necessary documents",
+        "created_at": "2023-10-04T13:29:59.684Z",
+        "updated_at": "2023-10-04T18:35:37.602Z",
+        "bike_id": "186d7917-c12a-4461-aa41-932d8250eb83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34544da1-ca4b-4cc8-8721-235da9ad5e4f",
+        "date": "2023-10-04T12:55:37.761Z",
+        "time": "2023-10-04T11:04:10.958Z",
+        "status": "Confirmed",
+        "notes": "Arrive 15 minutes early",
+        "created_at": "2023-10-04T10:49:23.828Z",
+        "updated_at": "2023-10-04T19:42:52.343Z",
+        "bike_id": "46ac2f46-dd8b-4ec5-a51a-287dbd060ff0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae3188f9-6d2f-408f-b49f-6f56d26f717c",
+        "date": "2023-10-05T05:04:40.676Z",
+        "time": "2023-10-05T07:45:10.882Z",
+        "status": "In Progress",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-10-04T10:29:13.475Z",
+        "updated_at": "2023-10-04T16:14:40.382Z",
+        "bike_id": "f2c6d7c8-86ce-4145-8a11-49236143b8b1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3ae4290-ea0c-4810-a684-e460ee3e30f4",
+        "date": "2023-10-04T12:19:13.302Z",
+        "time": "2023-10-05T03:30:30.373Z",
+        "status": "Completed",
+        "notes": "Follow-up required",
+        "created_at": "2023-10-04T18:00:53.296Z",
+        "updated_at": "2023-10-05T04:14:45.303Z",
+        "bike_id": "33183421-6ce6-4160-b75b-8ebb18d63463",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05430267-48c6-42c0-8a99-b20df6443a0b",
+        "date": "2023-10-04T09:23:21.087Z",
+        "time": "2023-10-04T10:15:23.644Z",
+        "status": "Cancelled",
+        "notes": "Additional parts needed",
+        "created_at": "2023-10-05T05:08:39.300Z",
+        "updated_at": "2023-10-05T08:07:45.606Z",
+        "bike_id": "f2c6d7c8-86ce-4145-8a11-49236143b8b1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_manager": [
+      {
+        "id": "404c0f6d-8d7b-4524-88f6-c1ebf9138e3c",
+        "experience": 31620,
+        "management_level": "Senior",
+        "availability": "Full-time",
+        "created_at": "2023-10-05T04:59:05.129Z",
+        "updated_at": "2023-10-04T17:57:45.746Z",
+        "appointment_id": "36bf4297-1c92-46b0-9a42-a7b33c5e08ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dec46fa3-d864-45f8-ad13-093397d73ce3",
+        "experience": 56694,
+        "management_level": "Mid-level",
+        "availability": "Part-time",
+        "created_at": "2023-10-05T06:33:40.751Z",
+        "updated_at": "2023-10-05T07:07:45.790Z",
+        "appointment_id": "36bf4297-1c92-46b0-9a42-a7b33c5e08ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7632cc51-2e77-43d6-b810-62a355515ff4",
+        "experience": 96148,
+        "management_level": "Junior",
+        "availability": "On-call",
+        "created_at": "2023-10-04T11:20:58.385Z",
+        "updated_at": "2023-10-04T22:39:49.507Z",
+        "appointment_id": "ae3188f9-6d2f-408f-b49f-6f56d26f717c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3283715-3b12-412b-9774-5619d9deb3f5",
+        "experience": 18160,
+        "management_level": "Executive",
+        "availability": "Remote",
+        "created_at": "2023-10-05T07:37:40.629Z",
+        "updated_at": "2023-10-04T12:44:36.532Z",
+        "appointment_id": "34544da1-ca4b-4cc8-8721-235da9ad5e4f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16f9e6f5-92e5-4567-b8a2-8537ab4a19c5",
+        "experience": 50265,
+        "management_level": "Supervisor",
+        "availability": "Flexible",
+        "created_at": "2023-10-04T23:21:45.308Z",
+        "updated_at": "2023-10-05T01:21:29.481Z",
+        "appointment_id": "34544da1-ca4b-4cc8-8721-235da9ad5e4f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_engineer": [
+      {
+        "id": "d8b93f31-563d-49c1-9c99-637c3310e1f1",
+        "experience": 37472,
+        "specialization": "Mechanical",
+        "availability": "Full-time",
+        "created_at": "2023-10-04T12:51:05.610Z",
+        "updated_at": "2023-10-04T11:10:29.945Z",
+        "appointment_id": "05430267-48c6-42c0-8a99-b20df6443a0b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a416b8c-4d0a-4a25-82cd-601b45561ae6",
+        "experience": 16925,
+        "specialization": "Electrical",
+        "availability": "Part-time",
+        "created_at": "2023-10-04T21:30:16.781Z",
+        "updated_at": "2023-10-04T23:12:16.463Z",
+        "appointment_id": "b3ae4290-ea0c-4810-a684-e460ee3e30f4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e31ad7d8-729a-4104-a68a-932e7849a0b1",
+        "experience": 8802,
+        "specialization": "Software",
+        "availability": "On-call",
+        "created_at": "2023-10-05T03:51:35.780Z",
+        "updated_at": "2023-10-04T11:02:06.415Z",
+        "appointment_id": "36bf4297-1c92-46b0-9a42-a7b33c5e08ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9209a1f-6811-4c87-9a3b-3ccd0586032c",
+        "experience": 56067,
+        "specialization": "Civil",
+        "availability": "Remote",
+        "created_at": "2023-10-04T18:12:20.006Z",
+        "updated_at": "2023-10-04T20:33:46.883Z",
+        "appointment_id": "ae3188f9-6d2f-408f-b49f-6f56d26f717c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a614ef7-fe58-4684-8c5a-836e2b5721aa",
+        "experience": 33553,
+        "specialization": "Chemical",
+        "availability": "Flexible",
+        "created_at": "2023-10-04T20:57:21.950Z",
+        "updated_at": "2023-10-05T01:05:15.179Z",
+        "appointment_id": "ae3188f9-6d2f-408f-b49f-6f56d26f717c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3abef881-40da-49d4-aee8-d8b1fffd9b09",
+        "email": "Jerald.Kirlin@roq.tech",
+        "firstName": "Davon",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43108323",
+        "tenantId": null
+      },
+      {
+        "reference": "38fff628-30e6-47fb-88cc-283cb7394b8a",
+        "email": "Jasen_Jacobi57@roq.tech",
+        "firstName": "Catalina",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33885478",
+        "tenantId": null
+      },
+      {
+        "reference": "21b08e9c-4fc6-4a4c-857a-69ef7bc59fb2",
+        "email": "Emilia.Deckow@roq.tech",
+        "firstName": "Boyd",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39909222",
+        "tenantId": null
+      },
+      {
+        "reference": "03bf6f61-e727-48ad-a152-cf91820e9821",
+        "email": "Marielle_Miller@roq.tech",
+        "firstName": "Nash",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/376.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "99937fd0-44f0-4290-99cb-571cb3581b20",
+        "email": "Davion_Hills@roq.tech",
+        "firstName": "Rhoda",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79979613",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "0fd7c61a-4be1-4142-b69c-deccabcdc412",
+        "make": "Honda",
+        "model": "CBR500R",
+        "year": 12075,
+        "color": "Red",
+        "vin_number": "JH2PC4000DK123456",
+        "created_at": "2023-10-04T14:31:33.069Z",
+        "updated_at": "2023-10-05T01:42:02.646Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24c42b77-7293-492a-ba39-c8866a2e8654",
+        "make": "Yamaha",
+        "model": "YZF-R6",
+        "year": 41572,
+        "color": "Blue",
+        "vin_number": "JYARJ16E0CA123456",
+        "created_at": "2023-10-05T00:48:13.450Z",
+        "updated_at": "2023-10-05T07:44:29.367Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1b0458d-a7e0-4aea-8c9e-0642de665c4a",
+        "make": "Kawasaki",
+        "model": "Ninja 650",
+        "year": 61918,
+        "color": "Black",
+        "vin_number": "JKAZXCW1XEA123456",
+        "created_at": "2023-10-04T18:24:05.818Z",
+        "updated_at": "2023-10-04T14:53:39.462Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d6e4e5c-fc89-409a-a7a6-a825fdccb168",
+        "make": "Suzuki",
+        "model": "GSX-R750",
+        "year": 23892,
+        "color": "White",
+        "vin_number": "JS1GR7MA1F2101234",
+        "created_at": "2023-10-04T23:44:56.702Z",
+        "updated_at": "2023-10-05T04:39:20.788Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4042fb6-081d-4af1-b0c2-cdb794d9cc7f",
+        "make": "Harley-Davidson",
+        "model": "Sportster Iron 883",
+        "year": 27082,
+        "color": "Silver",
+        "vin_number": "1HD4LE215GC123456",
+        "created_at": "2023-10-04T17:52:17.080Z",
+        "updated_at": "2023-10-05T08:49:48.592Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "292c95dc-77e8-4e70-aac2-eb45fd94da4b",
+        "date": "2023-10-05T07:17:28.002Z",
+        "time": "2023-10-05T01:27:23.673Z",
+        "status": "Scheduled",
+        "notes": "Please bring your bike's service history",
+        "created_at": "2023-10-04T19:51:42.126Z",
+        "updated_at": "2023-10-04T17:18:41.521Z",
+        "bike_id": "f4042fb6-081d-4af1-b0c2-cdb794d9cc7f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecad8198-2ef5-4faf-8f75-0e973ce70c96",
+        "date": "2023-10-04T21:19:51.739Z",
+        "time": "2023-10-05T06:29:49.187Z",
+        "status": "Confirmed",
+        "notes": "Arrive 15 minutes before your appointment",
+        "created_at": "2023-10-05T01:36:27.017Z",
+        "updated_at": "2023-10-05T07:41:47.083Z",
+        "bike_id": "0d6e4e5c-fc89-409a-a7a6-a825fdccb168",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96548950-07b3-45f6-8b8c-9280ee1e2d92",
+        "date": "2023-10-04T18:41:57.277Z",
+        "time": "2023-10-04T10:11:47.626Z",
+        "status": "In Progress",
+        "notes": "Service may take up to 2 hours",
+        "created_at": "2023-10-04T11:18:48.203Z",
+        "updated_at": "2023-10-04T12:50:31.744Z",
+        "bike_id": "24c42b77-7293-492a-ba39-c8866a2e8654",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6d2ebf5-8b88-427b-88cf-91db5ac81c2f",
+        "date": "2023-10-05T02:00:38.989Z",
+        "time": "2023-10-04T14:20:55.457Z",
+        "status": "Completed",
+        "notes": "Additional charges may apply for parts replacement",
+        "created_at": "2023-10-04T16:25:15.930Z",
+        "updated_at": "2023-10-04T20:34:22.694Z",
+        "bike_id": "24c42b77-7293-492a-ba39-c8866a2e8654",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a85df1e5-6f71-47b4-8e2c-fd68677ad7ea",
+        "date": "2023-10-05T04:43:32.611Z",
+        "time": "2023-10-04T10:36:12.719Z",
+        "status": "Cancelled",
+        "notes": "We offer a 10% discount for first-time customers",
+        "created_at": "2023-10-04T09:17:07.142Z",
+        "updated_at": "2023-10-05T06:46:01.910Z",
+        "bike_id": "f4042fb6-081d-4af1-b0c2-cdb794d9cc7f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_manager": [
+      {
+        "id": "7a230e44-9eba-4d9e-a298-ffa459010396",
+        "experience": 70549,
+        "management_level": "Senior",
+        "availability": "Monday-Friday, 9am-5pm",
+        "created_at": "2023-10-04T23:55:47.413Z",
+        "updated_at": "2023-10-05T04:32:47.561Z",
+        "appointment_id": "96548950-07b3-45f6-8b8c-9280ee1e2d92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "796b9102-a90a-4897-b0b8-c44cdf168fa5",
+        "experience": 49121,
+        "management_level": "Assistant",
+        "availability": "Tuesday-Saturday, 10am-6pm",
+        "created_at": "2023-10-05T05:18:41.827Z",
+        "updated_at": "2023-10-04T14:53:26.689Z",
+        "appointment_id": "f6d2ebf5-8b88-427b-88cf-91db5ac81c2f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0cd88250-152a-4cea-9109-f65dc13a5f7e",
+        "experience": 33356,
+        "management_level": "Supervisor",
+        "availability": "Wednesday-Sunday, 11am-7pm",
+        "created_at": "2023-10-05T06:01:19.192Z",
+        "updated_at": "2023-10-05T05:41:21.570Z",
+        "appointment_id": "292c95dc-77e8-4e70-aac2-eb45fd94da4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9ced95d-ef65-4b34-ae8c-f655f28f87fc",
+        "experience": 64223,
+        "management_level": "Manager",
+        "availability": "Thursday-Monday, 12pm-8pm",
+        "created_at": "2023-10-04T23:27:27.495Z",
+        "updated_at": "2023-10-04T11:50:51.830Z",
+        "appointment_id": "96548950-07b3-45f6-8b8c-9280ee1e2d92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62eefbcd-6a69-49da-ad4c-b018d4e55374",
+        "experience": 45668,
+        "management_level": "Director",
+        "availability": "Friday-Tuesday, 1pm-9pm",
+        "created_at": "2023-10-04T12:15:25.033Z",
+        "updated_at": "2023-10-04T13:26:35.809Z",
+        "appointment_id": "f6d2ebf5-8b88-427b-88cf-91db5ac81c2f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_engineer": [
+      {
+        "id": "f41720e9-572b-41ac-9fd1-3b3326b720e3",
+        "experience": 21918,
+        "specialization": "Engine Repair",
+        "availability": "Monday-Friday, 9am-5pm",
+        "created_at": "2023-10-04T12:15:09.308Z",
+        "updated_at": "2023-10-04T10:39:52.411Z",
+        "appointment_id": "292c95dc-77e8-4e70-aac2-eb45fd94da4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ecaf170-068f-441a-8b26-e2de0572d502",
+        "experience": 22584,
+        "specialization": "Brake System",
+        "availability": "Tuesday-Saturday, 10am-6pm",
+        "created_at": "2023-10-04T22:36:39.500Z",
+        "updated_at": "2023-10-05T07:05:59.317Z",
+        "appointment_id": "f6d2ebf5-8b88-427b-88cf-91db5ac81c2f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3314c725-10d8-48ae-894b-d2a9d4c37d1e",
+        "experience": 55387,
+        "specialization": "Electrical Systems",
+        "availability": "Wednesday-Sunday, 11am-7pm",
+        "created_at": "2023-10-04T14:44:00.774Z",
+        "updated_at": "2023-10-04T23:47:05.468Z",
+        "appointment_id": "ecad8198-2ef5-4faf-8f75-0e973ce70c96",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9cff8e2-7a23-49b0-9f84-a55eb4d3d6fc",
+        "experience": 27539,
+        "specialization": "Suspension",
+        "availability": "Thursday-Monday, 12pm-8pm",
+        "created_at": "2023-10-04T19:15:20.752Z",
+        "updated_at": "2023-10-04T14:37:06.302Z",
+        "appointment_id": "f6d2ebf5-8b88-427b-88cf-91db5ac81c2f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30185050-2f35-4b6b-b022-52322647db84",
+        "experience": 30231,
+        "specialization": "Fuel Injection",
+        "availability": "Friday-Tuesday, 1pm-9pm",
+        "created_at": "2023-10-05T01:03:12.415Z",
+        "updated_at": "2023-10-05T03:36:18.683Z",
+        "appointment_id": "a85df1e5-6f71-47b4-8e2c-fd68677ad7ea",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "40aee289-46b9-4169-add1-d6a3e1b29acf",
+        "email": "Maximus61@roq.tech",
+        "firstName": "Marquise",
+        "lastName": "Gerlach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86796397",
+        "tenantId": null
+      },
+      {
+        "reference": "9d0e6383-828a-4f9c-8ee0-ec144d4a820b",
+        "email": "Dena_OReilly28@roq.tech",
+        "firstName": "Harvey",
+        "lastName": "Medhurst-Emmerich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1167.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1705f3bc-54ef-4503-bb06-d80b4df87ed4",
+        "email": "Terrill_Wolff@roq.tech",
+        "firstName": "Ron",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71153921",
+        "tenantId": null
+      },
+      {
+        "reference": "6a6b844c-d732-40a3-a1ee-c3d4b5c2e35f",
+        "email": "Katarina_Wolf58@roq.tech",
+        "firstName": "Mack",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/971.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b7e9ed50-8e58-41be-b28f-b3c063e2d999",
+        "email": "Darian_Lehner45@roq.tech",
+        "firstName": "Lela",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67507151",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "868dc17e-cebd-4a43-a42a-d7b304a2af50",
+        "make": "Honda",
+        "model": "CBR600RR",
+        "year": 15216,
+        "color": "Red",
+        "vin_number": "JH2PC4000MK000001",
+        "created_at": "2023-10-04T21:40:23.507Z",
+        "updated_at": "2023-10-04T10:03:06.125Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ec096d8-9123-4326-a737-f721e4ae6e86",
+        "make": "Yamaha",
+        "model": "YZF-R6",
+        "year": 53357,
+        "color": "Blue",
+        "vin_number": "JYARJ16E3HA000001",
+        "created_at": "2023-10-04T14:14:28.967Z",
+        "updated_at": "2023-10-05T07:38:19.441Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b3e2025-d70f-4d22-99fd-a5b2cae133a4",
+        "make": "Kawasaki",
+        "model": "Ninja 400",
+        "year": 47501,
+        "color": "Green",
+        "vin_number": "JKAEXKG10MDA00001",
+        "created_at": "2023-10-04T11:24:36.718Z",
+        "updated_at": "2023-10-04T10:40:39.831Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2adc589-f3e0-4d71-852c-a26ef7fc39a2",
+        "make": "Suzuki",
+        "model": "GSX-R750",
+        "year": 92763,
+        "color": "Black",
+        "vin_number": "JS1GR7KA5G2100001",
+        "created_at": "2023-10-04T20:43:39.045Z",
+        "updated_at": "2023-10-05T04:57:21.919Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64fb498b-1d1c-4723-bc3f-0e745261b1b1",
+        "make": "Harley-Davidson",
+        "model": "Sportster Iron 883",
+        "year": 46302,
+        "color": "White",
+        "vin_number": "1HD4LE216JC000001",
+        "created_at": "2023-10-04T10:40:54.244Z",
+        "updated_at": "2023-10-04T14:59:17.759Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "16c1cd77-d2c2-4a66-a205-61b908d1bedd",
+        "date": "2023-10-04T15:13:03.769Z",
+        "time": "2023-10-05T04:49:46.143Z",
+        "status": "Scheduled",
+        "notes": "Please bring your bike's service manual",
+        "created_at": "2023-10-04T15:31:05.133Z",
+        "updated_at": "2023-10-05T03:51:55.899Z",
+        "bike_id": "1b3e2025-d70f-4d22-99fd-a5b2cae133a4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9747403-3f73-4379-ba85-671b747c7fb6",
+        "date": "2023-10-04T20:16:43.051Z",
+        "time": "2023-10-04T12:08:27.210Z",
+        "status": "Confirmed",
+        "notes": "Arrive 15 minutes before the appointment",
+        "created_at": "2023-10-04T12:23:26.233Z",
+        "updated_at": "2023-10-04T16:57:07.939Z",
+        "bike_id": "1b3e2025-d70f-4d22-99fd-a5b2cae133a4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11cb00ac-adc9-42e2-8495-dbc3fe9f062b",
+        "date": "2023-10-04T12:00:10.678Z",
+        "time": "2023-10-04T10:56:00.766Z",
+        "status": "In Progress",
+        "notes": "Payment due at the end of service",
+        "created_at": "2023-10-04T18:00:52.961Z",
+        "updated_at": "2023-10-04T17:42:55.066Z",
+        "bike_id": "1b3e2025-d70f-4d22-99fd-a5b2cae133a4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcfcd918-6b06-4bda-a1c3-5c887897921d",
+        "date": "2023-10-05T07:03:31.433Z",
+        "time": "2023-10-05T07:56:48.617Z",
+        "status": "Completed",
+        "notes": "Free inspection included",
+        "created_at": "2023-10-04T15:13:28.656Z",
+        "updated_at": "2023-10-04T10:05:34.696Z",
+        "bike_id": "1b3e2025-d70f-4d22-99fd-a5b2cae133a4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59791d3d-a36d-44d4-bcc9-b4b69a9c3397",
+        "date": "2023-10-04T19:57:43.818Z",
+        "time": "2023-10-04T23:27:47.279Z",
+        "status": "Cancelled",
+        "notes": "Limited slots available",
+        "created_at": "2023-10-04T20:06:34.035Z",
+        "updated_at": "2023-10-04T21:56:18.001Z",
+        "bike_id": "1b3e2025-d70f-4d22-99fd-a5b2cae133a4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_manager": [
+      {
+        "id": "84b1cc56-5936-4d72-9d1b-1478aafc6662",
+        "experience": 77475,
+        "management_level": "Senior",
+        "availability": "Monday to Friday",
+        "created_at": "2023-10-04T09:41:44.971Z",
+        "updated_at": "2023-10-05T09:02:37.019Z",
+        "appointment_id": "fcfcd918-6b06-4bda-a1c3-5c887897921d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d558e392-36cb-43f1-a1a1-86daf636b022",
+        "experience": 48556,
+        "management_level": "Mid-level",
+        "availability": "Tuesday to Saturday",
+        "created_at": "2023-10-04T17:22:10.295Z",
+        "updated_at": "2023-10-05T06:32:35.639Z",
+        "appointment_id": "16c1cd77-d2c2-4a66-a205-61b908d1bedd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0fee1027-dd12-41d4-bb8a-66506c77e462",
+        "experience": 66907,
+        "management_level": "Junior",
+        "availability": "Wednesday to Sunday",
+        "created_at": "2023-10-05T06:37:21.033Z",
+        "updated_at": "2023-10-04T11:00:24.290Z",
+        "appointment_id": "11cb00ac-adc9-42e2-8495-dbc3fe9f062b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6be46cb2-49ab-4408-a950-6b4ad465a5a6",
+        "experience": 1184,
+        "management_level": "Assistant",
+        "availability": "Thursday to Monday",
+        "created_at": "2023-10-04T12:52:12.633Z",
+        "updated_at": "2023-10-04T11:08:36.947Z",
+        "appointment_id": "59791d3d-a36d-44d4-bcc9-b4b69a9c3397",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "546cccc9-7d76-4e9b-b591-8e258d4211b7",
+        "experience": 51883,
+        "management_level": "Trainee",
+        "availability": "Friday to Tuesday",
+        "created_at": "2023-10-05T00:54:34.694Z",
+        "updated_at": "2023-10-04T10:23:59.941Z",
+        "appointment_id": "fcfcd918-6b06-4bda-a1c3-5c887897921d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_engineer": [
+      {
+        "id": "e341ba77-f418-4adc-bafc-f10af546a445",
+        "experience": 3226,
+        "specialization": "Engine",
+        "availability": "Monday and Tuesday",
+        "created_at": "2023-10-05T07:13:07.855Z",
+        "updated_at": "2023-10-04T19:43:11.552Z",
+        "appointment_id": "fcfcd918-6b06-4bda-a1c3-5c887897921d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fc0e83e-5571-4724-a4f3-34000d2fc9ba",
+        "experience": 54437,
+        "specialization": "Electrical",
+        "availability": "Wednesday and Thursday",
+        "created_at": "2023-10-05T04:56:05.437Z",
+        "updated_at": "2023-10-04T11:28:58.823Z",
+        "appointment_id": "11cb00ac-adc9-42e2-8495-dbc3fe9f062b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f858540-db06-41c9-962b-1f201f3f6534",
+        "experience": 33669,
+        "specialization": "Suspension",
+        "availability": "Friday and Saturday",
+        "created_at": "2023-10-04T10:33:58.361Z",
+        "updated_at": "2023-10-04T12:59:32.395Z",
+        "appointment_id": "11cb00ac-adc9-42e2-8495-dbc3fe9f062b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0212a38b-738f-428d-9f26-d52651fe834b",
+        "experience": 87980,
+        "specialization": "Brakes",
+        "availability": "Sunday and Monday",
+        "created_at": "2023-10-04T10:15:42.887Z",
+        "updated_at": "2023-10-05T02:32:43.687Z",
+        "appointment_id": "d9747403-3f73-4379-ba85-671b747c7fb6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fba158d-8c7d-4ac6-bb3d-118bdedeb218",
+        "experience": 89615,
+        "specialization": "Transmission",
+        "availability": "Tuesday and Wednesday",
+        "created_at": "2023-10-04T17:21:22.333Z",
+        "updated_at": "2023-10-05T06:27:26.794Z",
+        "appointment_id": "fcfcd918-6b06-4bda-a1c3-5c887897921d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "436b42af-1773-42cc-80d3-8436dbc5fcc0",
+        "email": "Lavon.Morar@roq.tech",
+        "firstName": "Camille",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28861421",
+        "tenantId": null
+      },
+      {
+        "reference": "e7e959e0-f5b0-4626-a8ca-5cdbf87ae95d",
+        "email": "Boyd_Tremblay@roq.tech",
+        "firstName": "Ceasar",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53855840",
+        "tenantId": null
+      },
+      {
+        "reference": "91b0d65a-7980-4252-87ad-113626a99aad",
+        "email": "Marcellus.Stamm@roq.tech",
+        "firstName": "Jasmin",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37049259",
+        "tenantId": null
+      },
+      {
+        "reference": "b5cdc013-2074-4640-a03b-9799d54e7268",
+        "email": "Mireya83@roq.tech",
+        "firstName": "Maiya",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/719.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4ece3c0f-66a3-4e7c-95bc-b8418b6537e2",
+        "email": "Kane_OHara@roq.tech",
+        "firstName": "Lorena",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/797.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "a7fe4dad-68e2-4a5a-8809-a579a080bc58",
+        "make": "Honda",
+        "model": "CBR500R",
+        "year": 39473,
+        "color": "Red",
+        "vin_number": "JH2PC4406CK000001",
+        "created_at": "2023-10-05T05:22:40.966Z",
+        "updated_at": "2023-10-04T13:45:32.542Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbfd323c-0dd5-4d59-962b-8e5c02e2e52d",
+        "make": "Yamaha",
+        "model": "YZF-R6",
+        "year": 59358,
+        "color": "Blue",
+        "vin_number": "JYARJ16E1DA000002",
+        "created_at": "2023-10-04T09:20:54.713Z",
+        "updated_at": "2023-10-04T21:22:25.751Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cbc4a73-f066-4a94-a387-a9e5ac674841",
+        "make": "Kawasaki",
+        "model": "Ninja 400",
+        "year": 92335,
+        "color": "Black",
+        "vin_number": "JKAEXKG16JDA000003",
+        "created_at": "2023-10-04T21:57:58.533Z",
+        "updated_at": "2023-10-05T04:44:23.313Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ced49d41-f38d-4b05-a202-f1023aa607e7",
+        "make": "Suzuki",
+        "model": "GSX-R750",
+        "year": 86474,
+        "color": "White",
+        "vin_number": "JS1GR7KA1H2100004",
+        "created_at": "2023-10-04T12:37:37.497Z",
+        "updated_at": "2023-10-04T21:52:56.775Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23158ff9-437b-4bba-8ae3-3c045daabc85",
+        "make": "Harley-Davidson",
+        "model": "Sportster Iron 883",
+        "year": 23957,
+        "color": "Silver",
+        "vin_number": "1HD4LE213JC000005",
+        "created_at": "2023-10-05T01:01:23.078Z",
+        "updated_at": "2023-10-04T15:16:45.047Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "c568c89e-5f4a-48c7-83ad-de006c43378b",
+        "date": "2023-10-05T01:12:37.671Z",
+        "time": "2023-10-04T23:59:03.640Z",
+        "status": "Scheduled",
+        "notes": "Bring all necessary documents",
+        "created_at": "2023-10-05T07:36:48.369Z",
+        "updated_at": "2023-10-04T10:59:04.889Z",
+        "bike_id": "23158ff9-437b-4bba-8ae3-3c045daabc85",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8db11bff-5e5c-4de5-b034-3b1a7a4fc5f6",
+        "date": "2023-10-04T22:17:38.238Z",
+        "time": "2023-10-05T04:41:55.598Z",
+        "status": "Confirmed",
+        "notes": "Arrive 10 minutes early",
+        "created_at": "2023-10-05T04:54:46.059Z",
+        "updated_at": "2023-10-05T06:43:39.134Z",
+        "bike_id": "23158ff9-437b-4bba-8ae3-3c045daabc85",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5e453e2-b84f-4a70-a09a-86d6ae1ff5be",
+        "date": "2023-10-05T05:28:29.166Z",
+        "time": "2023-10-04T16:55:52.132Z",
+        "status": "In Progress",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-10-04T19:46:28.087Z",
+        "updated_at": "2023-10-04T19:04:42.510Z",
+        "bike_id": "a7fe4dad-68e2-4a5a-8809-a579a080bc58",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71319f2a-e4f3-45a0-83d1-65ece2635d00",
+        "date": "2023-10-04T12:33:27.461Z",
+        "time": "2023-10-05T08:29:09.148Z",
+        "status": "Completed",
+        "notes": "Follow-up required",
+        "created_at": "2023-10-05T08:41:19.241Z",
+        "updated_at": "2023-10-04T10:39:43.085Z",
+        "bike_id": "bbfd323c-0dd5-4d59-962b-8e5c02e2e52d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74b3aabd-03c2-44a7-8354-2c6b3d42accb",
+        "date": "2023-10-05T05:47:57.931Z",
+        "time": "2023-10-04T21:46:47.393Z",
+        "status": "Cancelled",
+        "notes": "Bring a valid ID",
+        "created_at": "2023-10-04T09:54:50.297Z",
+        "updated_at": "2023-10-04T22:54:06.479Z",
+        "bike_id": "a7fe4dad-68e2-4a5a-8809-a579a080bc58",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_manager": [
+      {
+        "id": "7de8743a-e53e-4c27-8d23-dbcad4ea8abd",
+        "experience": 14102,
+        "management_level": "Senior",
+        "availability": "Full-time",
+        "created_at": "2023-10-04T15:38:18.624Z",
+        "updated_at": "2023-10-05T08:34:13.904Z",
+        "appointment_id": "74b3aabd-03c2-44a7-8354-2c6b3d42accb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55ad6176-f1b1-4bb6-9c85-3c1198e4d415",
+        "experience": 72162,
+        "management_level": "Mid-level",
+        "availability": "Part-time",
+        "created_at": "2023-10-05T04:56:13.058Z",
+        "updated_at": "2023-10-05T01:20:36.182Z",
+        "appointment_id": "8db11bff-5e5c-4de5-b034-3b1a7a4fc5f6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "947eef1a-eb41-4e7e-b750-dc6374e228fb",
+        "experience": 61253,
+        "management_level": "Junior",
+        "availability": "On-call",
+        "created_at": "2023-10-04T17:51:46.990Z",
+        "updated_at": "2023-10-04T15:31:00.347Z",
+        "appointment_id": "f5e453e2-b84f-4a70-a09a-86d6ae1ff5be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7686840e-7780-4116-9eeb-b4e5f5471809",
+        "experience": 11137,
+        "management_level": "Assistant",
+        "availability": "Remote",
+        "created_at": "2023-10-04T10:23:15.019Z",
+        "updated_at": "2023-10-05T01:13:11.982Z",
+        "appointment_id": "8db11bff-5e5c-4de5-b034-3b1a7a4fc5f6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e339a6f-661e-4021-bcf3-b3d652ee4016",
+        "experience": 2875,
+        "management_level": "Trainee",
+        "availability": "Flexible",
+        "created_at": "2023-10-05T06:19:02.252Z",
+        "updated_at": "2023-10-04T17:17:07.098Z",
+        "appointment_id": "f5e453e2-b84f-4a70-a09a-86d6ae1ff5be",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_engineer": [
+      {
+        "id": "7d517ec3-d6c1-4c8f-a9b1-1db4eb4f88b5",
+        "experience": 97274,
+        "specialization": "Electrical",
+        "availability": "Full-time",
+        "created_at": "2023-10-04T14:59:09.375Z",
+        "updated_at": "2023-10-05T01:45:19.991Z",
+        "appointment_id": "74b3aabd-03c2-44a7-8354-2c6b3d42accb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b579ef3e-90b5-46df-88b8-9d5321c7e3ed",
+        "experience": 6305,
+        "specialization": "Mechanical",
+        "availability": "Part-time",
+        "created_at": "2023-10-05T08:25:22.424Z",
+        "updated_at": "2023-10-04T11:16:01.019Z",
+        "appointment_id": "8db11bff-5e5c-4de5-b034-3b1a7a4fc5f6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "462d0c53-8bcb-43af-92ea-8260b6b8b857",
+        "experience": 1765,
+        "specialization": "Software",
+        "availability": "On-call",
+        "created_at": "2023-10-05T02:16:41.014Z",
+        "updated_at": "2023-10-04T13:14:02.539Z",
+        "appointment_id": "8db11bff-5e5c-4de5-b034-3b1a7a4fc5f6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6dc03993-de32-4eca-a64f-221addbcfd0f",
+        "experience": 20961,
+        "specialization": "Civil",
+        "availability": "Remote",
+        "created_at": "2023-10-05T01:44:36.836Z",
+        "updated_at": "2023-10-04T13:28:10.500Z",
+        "appointment_id": "71319f2a-e4f3-45a0-83d1-65ece2635d00",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c46646d-e66b-4794-8aeb-96d793a02374",
+        "experience": 61477,
+        "specialization": "Chemical",
+        "availability": "Flexible",
+        "created_at": "2023-10-05T04:04:41.573Z",
+        "updated_at": "2023-10-05T07:49:21.487Z",
+        "appointment_id": "71319f2a-e4f3-45a0-83d1-65ece2635d00",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d4b97bae-247e-445d-89ac-5be835d8436f",
+        "email": "Francesca_Okuneva8@roq.tech",
+        "firstName": "Edgardo",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56382145",
+        "tenantId": null
+      },
+      {
+        "reference": "0ba741ae-e884-4c37-911a-954224c8fc3d",
+        "email": "Emmanuelle.Kling39@roq.tech",
+        "firstName": "Rahsaan",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/374.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8fa0d669-e987-4437-aa44-130f21220cd2",
+        "email": "Golda.Feest@roq.tech",
+        "firstName": "Maynard",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57428304",
+        "tenantId": null
+      },
+      {
+        "reference": "650b47ad-a763-4660-9aa7-158f8761557e",
+        "email": "Kariane.Gorczany80@roq.tech",
+        "firstName": "Rosario",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71356267",
+        "tenantId": null
+      },
+      {
+        "reference": "5a7e1cce-a9a4-4589-bd51-fd01cc6b47cf",
+        "email": "Lina_Little@roq.tech",
+        "firstName": "Anjali",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/162.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "1ebacc20-3720-4dd0-b4ee-8d20c074ca57",
+        "make": "Honda",
+        "model": "CBR500R",
+        "year": 56782,
+        "color": "Red",
+        "vin_number": "1HGCM82633A123456",
+        "created_at": "2023-10-04T20:05:12.287Z",
+        "updated_at": "2023-10-04T19:02:47.114Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "063c4704-7076-4891-9bcc-39104a96b75d",
+        "make": "Yamaha",
+        "model": "YZF-R6",
+        "year": 11934,
+        "color": "Blue",
+        "vin_number": "JYARJ16E0HA000001",
+        "created_at": "2023-10-04T19:52:46.064Z",
+        "updated_at": "2023-10-04T10:23:15.029Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c96e9e4d-6cd0-4a25-aca5-a67c3300d361",
+        "make": "Kawasaki",
+        "model": "Ninja 400",
+        "year": 89946,
+        "color": "Green",
+        "vin_number": "JKAZX2F11KA000001",
+        "created_at": "2023-10-05T03:30:18.658Z",
+        "updated_at": "2023-10-04T12:15:27.249Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d20670b-0bc7-435f-9a48-37fab6a77f19",
+        "make": "Suzuki",
+        "model": "GSX-R750",
+        "year": 707,
+        "color": "Black",
+        "vin_number": "JS1GR7KA0H2100001",
+        "created_at": "2023-10-04T16:56:37.500Z",
+        "updated_at": "2023-10-04T12:02:31.285Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7026551-9f2a-4404-a057-aac300eed15e",
+        "make": "Harley-Davidson",
+        "model": "Street Glide",
+        "year": 42140,
+        "color": "White",
+        "vin_number": "1HD1KBC10GB000001",
+        "created_at": "2023-10-05T06:37:05.878Z",
+        "updated_at": "2023-10-04T23:58:14.717Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "8047a7d4-b2b7-455e-9af8-66e11ad4e0d3",
+        "date": "2023-10-04T12:35:46.117Z",
+        "time": "2023-10-04T15:07:44.767Z",
+        "status": "Scheduled",
+        "notes": "Bring necessary documents",
+        "created_at": "2023-10-05T07:41:36.501Z",
+        "updated_at": "2023-10-04T18:17:12.475Z",
+        "bike_id": "063c4704-7076-4891-9bcc-39104a96b75d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "131cdd01-dca8-4c8d-8621-b7e815c269df",
+        "date": "2023-10-05T05:09:53.429Z",
+        "time": "2023-10-04T15:05:35.318Z",
+        "status": "Cancelled",
+        "notes": "Payment due on arrival",
+        "created_at": "2023-10-04T17:20:39.082Z",
+        "updated_at": "2023-10-04T11:04:47.031Z",
+        "bike_id": "a7026551-9f2a-4404-a057-aac300eed15e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ece2de99-44ca-4232-bb30-f1c91c26a7a4",
+        "date": "2023-10-04T13:46:38.733Z",
+        "time": "2023-10-05T06:25:05.994Z",
+        "status": "Completed",
+        "notes": "Special request: wheelchair accessible",
+        "created_at": "2023-10-04T09:46:58.428Z",
+        "updated_at": "2023-10-05T04:45:17.231Z",
+        "bike_id": "1ebacc20-3720-4dd0-b4ee-8d20c074ca57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f1be2ee-04de-4fa9-a310-9fa202bf64e0",
+        "date": "2023-10-05T01:53:08.615Z",
+        "time": "2023-10-05T01:09:28.400Z",
+        "status": "In Progress",
+        "notes": "Parts need to be ordered",
+        "created_at": "2023-10-05T02:40:28.730Z",
+        "updated_at": "2023-10-05T06:20:13.311Z",
+        "bike_id": "1ebacc20-3720-4dd0-b4ee-8d20c074ca57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b64b896-69f4-4e18-a8ac-f9cf3c3acd7a",
+        "date": "2023-10-05T05:06:29.174Z",
+        "time": "2023-10-05T00:15:02.972Z",
+        "status": "Rescheduled",
+        "notes": "Customer prefers morning appointment",
+        "created_at": "2023-10-05T09:09:31.801Z",
+        "updated_at": "2023-10-04T20:33:04.656Z",
+        "bike_id": "063c4704-7076-4891-9bcc-39104a96b75d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_manager": [
+      {
+        "id": "c00cca69-fef3-4e5d-9357-f559385d046b",
+        "experience": 98962,
+        "management_level": "Senior",
+        "availability": "Monday to Friday",
+        "created_at": "2023-10-04T11:53:48.392Z",
+        "updated_at": "2023-10-04T21:12:49.003Z",
+        "appointment_id": "8047a7d4-b2b7-455e-9af8-66e11ad4e0d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e9b38d9-fc94-4ac1-a1c6-51c2e82ab74b",
+        "experience": 71530,
+        "management_level": "Mid-level",
+        "availability": "Tuesday to Saturday",
+        "created_at": "2023-10-04T14:22:16.648Z",
+        "updated_at": "2023-10-04T19:20:24.942Z",
+        "appointment_id": "ece2de99-44ca-4232-bb30-f1c91c26a7a4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c9236d2-35d0-4415-ad97-971e9413e420",
+        "experience": 94109,
+        "management_level": "Junior",
+        "availability": "Wednesday to Sunday",
+        "created_at": "2023-10-05T03:29:26.327Z",
+        "updated_at": "2023-10-05T08:55:05.052Z",
+        "appointment_id": "6b64b896-69f4-4e18-a8ac-f9cf3c3acd7a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78735532-f83d-4eb9-8de4-8f2d51245697",
+        "experience": 24633,
+        "management_level": "Assistant",
+        "availability": "Thursday to Monday",
+        "created_at": "2023-10-04T22:24:59.275Z",
+        "updated_at": "2023-10-04T19:24:30.759Z",
+        "appointment_id": "131cdd01-dca8-4c8d-8621-b7e815c269df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "239d0251-e838-483f-a6b9-cbca264b5179",
+        "experience": 83195,
+        "management_level": "Trainee",
+        "availability": "Friday to Tuesday",
+        "created_at": "2023-10-05T04:18:12.782Z",
+        "updated_at": "2023-10-04T17:18:45.315Z",
+        "appointment_id": "2f1be2ee-04de-4fa9-a310-9fa202bf64e0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_engineer": [
+      {
+        "id": "00ade525-1d34-4ffa-9231-035ce4a28eaa",
+        "experience": 36115,
+        "specialization": "Electrical",
+        "availability": "Monday to Friday",
+        "created_at": "2023-10-04T09:54:09.514Z",
+        "updated_at": "2023-10-05T04:11:54.986Z",
+        "appointment_id": "6b64b896-69f4-4e18-a8ac-f9cf3c3acd7a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff0eea07-273b-4765-b697-6965a28f1a71",
+        "experience": 42136,
+        "specialization": "Mechanical",
+        "availability": "Tuesday to Saturday",
+        "created_at": "2023-10-04T11:53:32.076Z",
+        "updated_at": "2023-10-05T06:30:52.200Z",
+        "appointment_id": "131cdd01-dca8-4c8d-8621-b7e815c269df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0f6c2f3-2968-4a33-bf50-6fe632a8163c",
+        "experience": 6953,
+        "specialization": "Software",
+        "availability": "Wednesday to Sunday",
+        "created_at": "2023-10-05T06:08:48.739Z",
+        "updated_at": "2023-10-05T06:26:48.016Z",
+        "appointment_id": "8047a7d4-b2b7-455e-9af8-66e11ad4e0d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d28a1679-1eb4-4492-be28-dd4adeb3406e",
+        "experience": 69640,
+        "specialization": "Civil",
+        "availability": "Thursday to Monday",
+        "created_at": "2023-10-04T21:24:28.453Z",
+        "updated_at": "2023-10-05T00:59:14.867Z",
+        "appointment_id": "ece2de99-44ca-4232-bb30-f1c91c26a7a4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e285a78-9638-4e21-901d-823a42dfc3e7",
+        "experience": 35075,
+        "specialization": "Chemical",
+        "availability": "Friday to Tuesday",
+        "created_at": "2023-10-04T14:49:25.721Z",
+        "updated_at": "2023-10-05T05:27:26.409Z",
+        "appointment_id": "131cdd01-dca8-4c8d-8621-b7e815c269df",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4e58cb34-7aa2-4cea-94c0-4d7154f16726",
+        "email": "Adell.Mante16@roq.tech",
+        "firstName": "Estella",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96629224",
+        "tenantId": null
+      },
+      {
+        "reference": "11da5372-fa31-4f32-b390-beb9167c953b",
+        "email": "Adela.Renner80@roq.tech",
+        "firstName": "Lesley",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46713346",
+        "tenantId": null
+      },
+      {
+        "reference": "f46ade16-21de-49c1-8e6d-02c1043e4427",
+        "email": "Ephraim.Legros57@roq.tech",
+        "firstName": "Roxanne",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1220.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9d69314e-9d3e-4574-a6a2-b501ca7f450c",
+        "email": "Federico_Barton@roq.tech",
+        "firstName": "Madaline",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80262098",
+        "tenantId": null
+      },
+      {
+        "reference": "6792dadc-18e3-4deb-8437-776d1fa06f86",
+        "email": "Marjolaine_Jacobson3@roq.tech",
+        "firstName": "Malinda",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89979599",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "ac3f6bb6-80cd-484b-a90e-7832e6dfd307",
+        "make": "Honda",
+        "model": "CBR500R",
+        "year": 11351,
+        "color": "Red",
+        "vin_number": "JH2PC400XDK000001",
+        "created_at": "2023-10-05T06:50:06.491Z",
+        "updated_at": "2023-10-05T05:51:34.223Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa54207e-8435-4e51-99b7-60409ebd2923",
+        "make": "Yamaha",
+        "model": "YZF-R6",
+        "year": 28559,
+        "color": "Blue",
+        "vin_number": "JYARJ16E0EA000002",
+        "created_at": "2023-10-05T01:01:12.993Z",
+        "updated_at": "2023-10-04T11:16:00.941Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81a57c06-81c0-4c03-8bfa-e704c3dedb67",
+        "make": "Suzuki",
+        "model": "GSX-R750",
+        "year": 47336,
+        "color": "Black",
+        "vin_number": "JS1GR7KA0F2100003",
+        "created_at": "2023-10-05T05:21:32.561Z",
+        "updated_at": "2023-10-04T18:13:04.033Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21b79b82-34ce-4774-801b-39a3cc8d6b2f",
+        "make": "Kawasaki",
+        "model": "Ninja 650",
+        "year": 35470,
+        "color": "White",
+        "vin_number": "JKAEXEF10FDA00004",
+        "created_at": "2023-10-05T00:43:10.255Z",
+        "updated_at": "2023-10-05T08:22:03.888Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2cc951f-6426-4a28-9794-0afe7218e322",
+        "make": "Ducati",
+        "model": "Monster 821",
+        "year": 65686,
+        "color": "Yellow",
+        "vin_number": "ZDM1RB5T3FB000005",
+        "created_at": "2023-10-04T09:20:56.548Z",
+        "updated_at": "2023-10-05T06:37:26.847Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "0d28ff73-bdce-43d9-bc2f-481aa23cfdb8",
+        "date": "2023-10-05T03:07:56.483Z",
+        "time": "2023-10-04T12:13:40.371Z",
+        "status": "Pending",
+        "notes": "Please bring your ID",
+        "created_at": "2023-10-04T18:33:02.341Z",
+        "updated_at": "2023-10-04T20:04:41.111Z",
+        "bike_id": "81a57c06-81c0-4c03-8bfa-e704c3dedb67",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "238d7ed2-3cb0-407c-bcb7-e9ef74fb1827",
+        "date": "2023-10-05T02:12:26.172Z",
+        "time": "2023-10-04T21:26:15.456Z",
+        "status": "Confirmed",
+        "notes": "Arrive 10 minutes early",
+        "created_at": "2023-10-05T06:40:17.227Z",
+        "updated_at": "2023-10-04T12:51:35.579Z",
+        "bike_id": "21b79b82-34ce-4774-801b-39a3cc8d6b2f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b9f9fcd-c794-4001-9f90-935a243f1bb1",
+        "date": "2023-10-04T23:51:26.428Z",
+        "time": "2023-10-04T10:10:17.016Z",
+        "status": "Cancelled",
+        "notes": "Bring your insurance card",
+        "created_at": "2023-10-04T14:54:00.378Z",
+        "updated_at": "2023-10-04T23:03:45.332Z",
+        "bike_id": "81a57c06-81c0-4c03-8bfa-e704c3dedb67",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1103771a-b983-4504-9185-bb8730eac7c7",
+        "date": "2023-10-04T15:07:07.672Z",
+        "time": "2023-10-04T22:47:54.939Z",
+        "status": "Completed",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-10-05T08:36:23.409Z",
+        "updated_at": "2023-10-04T22:46:20.663Z",
+        "bike_id": "fa54207e-8435-4e51-99b7-60409ebd2923",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c73f8936-a198-4ff2-adcb-81847c3168d9",
+        "date": "2023-10-04T20:32:24.477Z",
+        "time": "2023-10-04T11:31:04.704Z",
+        "status": "Rescheduled",
+        "notes": "Follow-up appointment required",
+        "created_at": "2023-10-05T06:54:19.733Z",
+        "updated_at": "2023-10-04T09:24:46.016Z",
+        "bike_id": "fa54207e-8435-4e51-99b7-60409ebd2923",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_manager": [
+      {
+        "id": "bcc1d8b7-566d-47e8-8703-713568c21499",
+        "experience": 97096,
+        "management_level": "Senior",
+        "availability": "Monday-Friday 9am-5pm",
+        "created_at": "2023-10-05T06:23:14.077Z",
+        "updated_at": "2023-10-04T23:49:36.572Z",
+        "appointment_id": "238d7ed2-3cb0-407c-bcb7-e9ef74fb1827",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9748d555-a752-4c3a-98d0-0b4c0bf395d3",
+        "experience": 55279,
+        "management_level": "Mid-level",
+        "availability": "Tuesday-Saturday 8am-4pm",
+        "created_at": "2023-10-05T02:51:35.215Z",
+        "updated_at": "2023-10-04T15:03:58.848Z",
+        "appointment_id": "0d28ff73-bdce-43d9-bc2f-481aa23cfdb8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1606caa-fd1b-46ed-89e2-4b22f9c3e399",
+        "experience": 57828,
+        "management_level": "Junior",
+        "availability": "Wednesday-Sunday 10am-6pm",
+        "created_at": "2023-10-05T00:40:56.593Z",
+        "updated_at": "2023-10-04T14:31:42.443Z",
+        "appointment_id": "0d28ff73-bdce-43d9-bc2f-481aa23cfdb8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "013d7456-a523-49cf-8d3c-88f12d1a7cc8",
+        "experience": 91557,
+        "management_level": "Assistant",
+        "availability": "Thursday-Monday 11am-7pm",
+        "created_at": "2023-10-04T11:30:55.241Z",
+        "updated_at": "2023-10-04T11:54:09.955Z",
+        "appointment_id": "0d28ff73-bdce-43d9-bc2f-481aa23cfdb8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93288718-2737-4275-8b80-dfd4f1ab420f",
+        "experience": 58307,
+        "management_level": "Trainee",
+        "availability": "Friday-Tuesday 12pm-8pm",
+        "created_at": "2023-10-04T16:38:27.217Z",
+        "updated_at": "2023-10-04T12:28:40.958Z",
+        "appointment_id": "c73f8936-a198-4ff2-adcb-81847c3168d9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_engineer": [
+      {
+        "id": "c961d194-9c02-4601-a950-042776c17416",
+        "experience": 40252,
+        "specialization": "Electrical",
+        "availability": "Monday-Friday 9am-5pm",
+        "created_at": "2023-10-05T05:08:53.821Z",
+        "updated_at": "2023-10-05T04:32:25.388Z",
+        "appointment_id": "0d28ff73-bdce-43d9-bc2f-481aa23cfdb8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cc5075a-f571-4619-ab41-010a32a498eb",
+        "experience": 78125,
+        "specialization": "Mechanical",
+        "availability": "Tuesday-Saturday 8am-4pm",
+        "created_at": "2023-10-04T18:27:02.678Z",
+        "updated_at": "2023-10-05T00:43:19.035Z",
+        "appointment_id": "1103771a-b983-4504-9185-bb8730eac7c7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6131fbd-2e77-4a4c-a522-5d2bae244081",
+        "experience": 44025,
+        "specialization": "Software",
+        "availability": "Wednesday-Sunday 10am-6pm",
+        "created_at": "2023-10-05T07:34:25.402Z",
+        "updated_at": "2023-10-04T23:37:37.122Z",
+        "appointment_id": "1103771a-b983-4504-9185-bb8730eac7c7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68a6c3e0-53fa-4217-8520-8d47f1ea9ed7",
+        "experience": 96690,
+        "specialization": "Civil",
+        "availability": "Thursday-Monday 11am-7pm",
+        "created_at": "2023-10-04T20:14:02.315Z",
+        "updated_at": "2023-10-05T01:25:13.517Z",
+        "appointment_id": "0d28ff73-bdce-43d9-bc2f-481aa23cfdb8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8728033-2bb3-4350-a6ae-9033e1ff03d5",
+        "experience": 9833,
+        "specialization": "Chemical",
+        "availability": "Friday-Tuesday 12pm-8pm",
+        "created_at": "2023-10-04T16:53:14.407Z",
+        "updated_at": "2023-10-04T18:09:13.288Z",
+        "appointment_id": "238d7ed2-3cb0-407c-bcb7-e9ef74fb1827",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f2faaccc-284f-4649-bb75-b2ce0e607072",
+        "email": "Tracy31@roq.tech",
+        "firstName": "Tierra",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/707.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bab97201-2fb5-44e5-9840-6c524a3f9c69",
+        "email": "Evelyn_Padberg43@roq.tech",
+        "firstName": "Willie",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1135.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3b59de2e-9319-4e82-b280-d146e50c4d53",
+        "email": "Alexzander48@roq.tech",
+        "firstName": "Shayna",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63265224",
+        "tenantId": null
+      },
+      {
+        "reference": "4074b323-2348-4439-b164-89b2e5414fee",
+        "email": "Mozelle.Pagac-Feil@roq.tech",
+        "firstName": "Malinda",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1229.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d0638cb5-201a-41da-8bab-39925bd272a9",
+        "email": "Precious.Cassin@roq.tech",
+        "firstName": "Kade",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10876192",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "ff3fb99d-ae93-49f0-90d1-72f06abeab46",
+        "make": "Honda",
+        "model": "CBR500R",
+        "year": 9916,
+        "color": "Red",
+        "vin_number": "1HGCM82633A123456",
+        "created_at": "2023-10-04T11:06:57.876Z",
+        "updated_at": "2023-10-04T16:42:42.916Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "189e3daf-ae52-4ce4-a953-3f2b8f1779c9",
+        "make": "Yamaha",
+        "model": "YZF-R6",
+        "year": 87192,
+        "color": "Blue",
+        "vin_number": "JYARJ16E8JA000001",
+        "created_at": "2023-10-04T19:16:52.865Z",
+        "updated_at": "2023-10-05T08:12:43.170Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cacebb55-0405-4196-847f-c6aae60b908d",
+        "make": "Kawasaki",
+        "model": "Ninja 650",
+        "year": 56611,
+        "color": "Black",
+        "vin_number": "JKBZGNA13JA000001",
+        "created_at": "2023-10-05T06:56:50.921Z",
+        "updated_at": "2023-10-04T21:37:52.393Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3173b447-75ff-4454-9d4b-4a6dfdfd6360",
+        "make": "Suzuki",
+        "model": "GSX-R750",
+        "year": 67299,
+        "color": "White",
+        "vin_number": "JS1GR7KA6G2100001",
+        "created_at": "2023-10-05T07:55:31.719Z",
+        "updated_at": "2023-10-04T12:58:05.080Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f112a7c-7664-4e21-8417-189b3d1daaa2",
+        "make": "Harley-Davidson",
+        "model": "Sportster Iron 883",
+        "year": 28195,
+        "color": "Silver",
+        "vin_number": "1HD1LP314FC400001",
+        "created_at": "2023-10-04T21:22:31.086Z",
+        "updated_at": "2023-10-04T15:32:49.389Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "e216e3cc-0a78-437d-911d-e1404095f1c2",
+        "date": "2023-10-05T07:23:19.978Z",
+        "time": "2023-10-05T03:50:40.158Z",
+        "status": "Pending",
+        "notes": "Bring necessary documents",
+        "created_at": "2023-10-04T19:11:04.324Z",
+        "updated_at": "2023-10-04T23:58:35.179Z",
+        "bike_id": "2f112a7c-7664-4e21-8417-189b3d1daaa2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4465899c-392f-4af8-9ce6-8c217ef5125a",
+        "date": "2023-10-04T10:58:51.712Z",
+        "time": "2023-10-05T04:05:57.500Z",
+        "status": "Confirmed",
+        "notes": "Arrive 10 minutes early",
+        "created_at": "2023-10-04T20:19:33.365Z",
+        "updated_at": "2023-10-05T00:38:05.137Z",
+        "bike_id": "2f112a7c-7664-4e21-8417-189b3d1daaa2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e279512-a29b-48a7-b1c4-01a7bc5ed8dd",
+        "date": "2023-10-04T09:28:02.419Z",
+        "time": "2023-10-04T21:37:17.442Z",
+        "status": "Cancelled",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-10-05T06:38:12.894Z",
+        "updated_at": "2023-10-05T07:55:04.232Z",
+        "bike_id": "3173b447-75ff-4454-9d4b-4a6dfdfd6360",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "136db5ef-e162-407e-81aa-de29b95cff17",
+        "date": "2023-10-05T08:45:39.623Z",
+        "time": "2023-10-04T17:35:58.469Z",
+        "status": "Completed",
+        "notes": "Follow-up required",
+        "created_at": "2023-10-05T03:37:53.392Z",
+        "updated_at": "2023-10-04T11:22:06.472Z",
+        "bike_id": "189e3daf-ae52-4ce4-a953-3f2b8f1779c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77f01169-332d-4a1f-ba44-3a6d60509698",
+        "date": "2023-10-04T14:50:08.483Z",
+        "time": "2023-10-04T09:45:41.016Z",
+        "status": "Rescheduled",
+        "notes": "Bring a valid ID",
+        "created_at": "2023-10-05T08:04:19.683Z",
+        "updated_at": "2023-10-04T16:17:51.451Z",
+        "bike_id": "ff3fb99d-ae93-49f0-90d1-72f06abeab46",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_manager": [
+      {
+        "id": "83ccc7c8-7ada-4ad1-9d84-9bcb97408768",
+        "experience": 80749,
+        "management_level": "Senior",
+        "availability": "Full-time",
+        "created_at": "2023-10-04T10:51:11.431Z",
+        "updated_at": "2023-10-05T08:15:58.157Z",
+        "appointment_id": "e216e3cc-0a78-437d-911d-e1404095f1c2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23e0695b-851d-409b-98c3-15e78c750407",
+        "experience": 34445,
+        "management_level": "Mid-level",
+        "availability": "Part-time",
+        "created_at": "2023-10-04T09:36:00.533Z",
+        "updated_at": "2023-10-05T08:06:25.332Z",
+        "appointment_id": "77f01169-332d-4a1f-ba44-3a6d60509698",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa32f942-ed1e-4bcd-b27e-f3e584cd0c52",
+        "experience": 98644,
+        "management_level": "Junior",
+        "availability": "Flexible",
+        "created_at": "2023-10-04T18:34:21.786Z",
+        "updated_at": "2023-10-04T12:12:47.784Z",
+        "appointment_id": "e216e3cc-0a78-437d-911d-e1404095f1c2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6dfa26ad-9e39-407c-9a5c-a129085375d0",
+        "experience": 10837,
+        "management_level": "Assistant",
+        "availability": "Remote",
+        "created_at": "2023-10-04T18:25:15.413Z",
+        "updated_at": "2023-10-05T05:01:39.151Z",
+        "appointment_id": "4465899c-392f-4af8-9ce6-8c217ef5125a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a0a7e99-9804-4360-bb8c-4aa61b7b1152",
+        "experience": 54594,
+        "management_level": "Trainee",
+        "availability": "On-site",
+        "created_at": "2023-10-05T03:05:15.198Z",
+        "updated_at": "2023-10-05T03:06:32.865Z",
+        "appointment_id": "e216e3cc-0a78-437d-911d-e1404095f1c2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_engineer": [
+      {
+        "id": "316afb11-bfe8-49d3-8873-a2beb160ec4c",
+        "experience": 30371,
+        "specialization": "Electrical",
+        "availability": "Weekdays",
+        "created_at": "2023-10-04T23:16:45.428Z",
+        "updated_at": "2023-10-04T12:55:01.239Z",
+        "appointment_id": "4465899c-392f-4af8-9ce6-8c217ef5125a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bb52848-4202-4ea0-a38a-871df1956802",
+        "experience": 60069,
+        "specialization": "Mechanical",
+        "availability": "Weekends",
+        "created_at": "2023-10-04T11:02:24.196Z",
+        "updated_at": "2023-10-04T09:30:38.194Z",
+        "appointment_id": "e216e3cc-0a78-437d-911d-e1404095f1c2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9987b52-64cf-403c-9efe-4215cbe0657e",
+        "experience": 99429,
+        "specialization": "Software",
+        "availability": "Evenings",
+        "created_at": "2023-10-05T02:26:25.961Z",
+        "updated_at": "2023-10-05T01:34:23.021Z",
+        "appointment_id": "e216e3cc-0a78-437d-911d-e1404095f1c2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09d76d22-ee27-43ff-8c00-9d72f8ea80ea",
+        "experience": 64464,
+        "specialization": "Civil",
+        "availability": "Overnight",
+        "created_at": "2023-10-05T04:14:28.715Z",
+        "updated_at": "2023-10-05T07:12:40.141Z",
+        "appointment_id": "7e279512-a29b-48a7-b1c4-01a7bc5ed8dd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21b4fd2e-e0c2-4451-89ad-6e7bea588507",
+        "experience": 66936,
+        "specialization": "Chemical",
+        "availability": "24/7",
+        "created_at": "2023-10-04T16:06:50.274Z",
+        "updated_at": "2023-10-04T18:46:41.871Z",
+        "appointment_id": "4465899c-392f-4af8-9ce6-8c217ef5125a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2c6347c1-7ba3-42d7-98f2-a0b7efc10b67",
+        "email": "Eleonore.Graham92@roq.tech",
+        "firstName": "Vance",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/96.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c8557553-72f5-4d58-9bed-10810dfcfd7b",
+        "email": "Gerda96@roq.tech",
+        "firstName": "Josephine",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73905810",
+        "tenantId": null
+      },
+      {
+        "reference": "ac7746a2-6258-46be-a395-59153a121b1b",
+        "email": "Jarrell27@roq.tech",
+        "firstName": "Janis",
+        "lastName": "Franey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4223880",
+        "tenantId": null
+      },
+      {
+        "reference": "b13f9220-0edf-4110-aa6c-ccb1af05284c",
+        "email": "Orville.Schowalter@roq.tech",
+        "firstName": "Shane",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/175.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "170143d2-6b7f-46f5-ae9d-6727933f238e",
+        "email": "Rachael.Hilpert@roq.tech",
+        "firstName": "Keely",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1039.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "7d76c7e8-0963-49ca-a853-a6b1a9cf5c62",
+        "make": "Honda",
+        "model": "CBR500R",
+        "year": 80107,
+        "color": "Red",
+        "vin_number": "1HGCM82633A123456",
+        "created_at": "2023-10-05T08:39:26.615Z",
+        "updated_at": "2023-10-04T10:55:19.236Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5d8bcc7-0d68-47e9-9b3f-29510adda255",
+        "make": "Yamaha",
+        "model": "YZF-R6",
+        "year": 6488,
+        "color": "Blue",
+        "vin_number": "JYARJ16E0HA012345",
+        "created_at": "2023-10-05T05:32:55.594Z",
+        "updated_at": "2023-10-05T08:40:15.876Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bedded1-f236-448f-9279-603c1cbb5871",
+        "make": "Kawasaki",
+        "model": "Ninja 650",
+        "year": 62693,
+        "color": "Black",
+        "vin_number": "JKBZXT00XJA123456",
+        "created_at": "2023-10-04T19:37:14.465Z",
+        "updated_at": "2023-10-04T12:46:45.854Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4bf5935-b4ab-4c96-af47-0190c7d07cce",
+        "make": "Suzuki",
+        "model": "GSX-R750",
+        "year": 90449,
+        "color": "White",
+        "vin_number": "JS1GR7KA1H2101234",
+        "created_at": "2023-10-04T14:27:38.927Z",
+        "updated_at": "2023-10-04T15:11:15.167Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa023559-26b6-40a1-be32-ec9bcf62d881",
+        "make": "Ducati",
+        "model": "Panigale V4",
+        "year": 95542,
+        "color": "Yellow",
+        "vin_number": "ZDMVCAKW5HB012345",
+        "created_at": "2023-10-04T10:18:27.668Z",
+        "updated_at": "2023-10-05T07:37:12.080Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "2e3c85ab-37ce-4d13-91c4-ac69aba1d75c",
+        "date": "2023-10-04T17:53:04.292Z",
+        "time": "2023-10-04T10:33:06.674Z",
+        "status": "Scheduled",
+        "notes": "Please bring your ID",
+        "created_at": "2023-10-04T14:06:48.203Z",
+        "updated_at": "2023-10-04T19:33:26.876Z",
+        "bike_id": "fa023559-26b6-40a1-be32-ec9bcf62d881",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5629c1e7-845a-4522-ac65-8a8429597d65",
+        "date": "2023-10-04T20:31:34.262Z",
+        "time": "2023-10-04T11:04:21.514Z",
+        "status": "Confirmed",
+        "notes": "Arrive 10 minutes early",
+        "created_at": "2023-10-04T17:01:55.591Z",
+        "updated_at": "2023-10-04T17:19:10.521Z",
+        "bike_id": "7d76c7e8-0963-49ca-a853-a6b1a9cf5c62",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af9dbd70-3ba8-491e-8729-ed78ff0a54a3",
+        "date": "2023-10-05T07:35:31.675Z",
+        "time": "2023-10-04T22:34:51.322Z",
+        "status": "In Progress",
+        "notes": "Bring any relevant documents",
+        "created_at": "2023-10-04T16:11:33.006Z",
+        "updated_at": "2023-10-05T08:47:10.739Z",
+        "bike_id": "7bedded1-f236-448f-9279-603c1cbb5871",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e80a721-938b-431c-b6a5-ea40c1a7ef4b",
+        "date": "2023-10-04T14:49:29.682Z",
+        "time": "2023-10-04T23:04:23.605Z",
+        "status": "Completed",
+        "notes": "Payment due at appointment",
+        "created_at": "2023-10-05T00:01:20.317Z",
+        "updated_at": "2023-10-05T03:43:38.234Z",
+        "bike_id": "fa023559-26b6-40a1-be32-ec9bcf62d881",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9f4da02-8f53-430f-9f2b-1a013c3a2502",
+        "date": "2023-10-05T03:24:21.963Z",
+        "time": "2023-10-04T22:01:11.744Z",
+        "status": "Cancelled",
+        "notes": "No pets allowed",
+        "created_at": "2023-10-05T01:30:36.258Z",
+        "updated_at": "2023-10-04T23:08:44.080Z",
+        "bike_id": "b5d8bcc7-0d68-47e9-9b3f-29510adda255",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_manager": [
+      {
+        "id": "01e42616-487d-4784-bbe1-0e9a2d9be001",
+        "experience": 16444,
+        "management_level": "Senior",
+        "availability": "Full-time",
+        "created_at": "2023-10-04T21:59:20.503Z",
+        "updated_at": "2023-10-05T00:35:48.470Z",
+        "appointment_id": "2e3c85ab-37ce-4d13-91c4-ac69aba1d75c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43fd665f-4763-4830-a16b-39cec13a40c7",
+        "experience": 39105,
+        "management_level": "Assistant",
+        "availability": "Part-time",
+        "created_at": "2023-10-04T23:59:15.140Z",
+        "updated_at": "2023-10-04T19:13:49.565Z",
+        "appointment_id": "a9f4da02-8f53-430f-9f2b-1a013c3a2502",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6252ce4a-1b8e-44a6-8e0a-6b65f8cb81a3",
+        "experience": 16927,
+        "management_level": "Supervisor",
+        "availability": "On-call",
+        "created_at": "2023-10-04T18:33:35.829Z",
+        "updated_at": "2023-10-04T11:09:07.723Z",
+        "appointment_id": "a9f4da02-8f53-430f-9f2b-1a013c3a2502",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82fa1c31-b375-4260-8668-949929322b4a",
+        "experience": 49056,
+        "management_level": "Manager",
+        "availability": "Remote",
+        "created_at": "2023-10-05T02:30:57.005Z",
+        "updated_at": "2023-10-04T15:21:55.383Z",
+        "appointment_id": "4e80a721-938b-431c-b6a5-ea40c1a7ef4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c87fd56e-f9be-40a4-8c27-011a99cfb8f6",
+        "experience": 32093,
+        "management_level": "Director",
+        "availability": "Flexible",
+        "created_at": "2023-10-04T13:17:06.142Z",
+        "updated_at": "2023-10-04T15:38:46.395Z",
+        "appointment_id": "5629c1e7-845a-4522-ac65-8a8429597d65",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_engineer": [
+      {
+        "id": "c4a66964-4cbb-4ed4-8d2d-d6fdb27372e9",
+        "experience": 60244,
+        "specialization": "Electrical",
+        "availability": "Full-time",
+        "created_at": "2023-10-04T11:41:33.755Z",
+        "updated_at": "2023-10-04T17:06:38.120Z",
+        "appointment_id": "2e3c85ab-37ce-4d13-91c4-ac69aba1d75c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "874054bd-06cc-4ff9-b27b-95dabe2fcbb6",
+        "experience": 25437,
+        "specialization": "Mechanical",
+        "availability": "Part-time",
+        "created_at": "2023-10-05T08:55:09.298Z",
+        "updated_at": "2023-10-04T15:49:00.609Z",
+        "appointment_id": "a9f4da02-8f53-430f-9f2b-1a013c3a2502",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2664df0-a42b-46c1-a0f4-c8bdea863032",
+        "experience": 21980,
+        "specialization": "Software",
+        "availability": "On-call",
+        "created_at": "2023-10-04T11:44:28.651Z",
+        "updated_at": "2023-10-04T14:03:48.325Z",
+        "appointment_id": "5629c1e7-845a-4522-ac65-8a8429597d65",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8969d88-a777-49d7-87bf-b3f649f7a3e0",
+        "experience": 57951,
+        "specialization": "Civil",
+        "availability": "Remote",
+        "created_at": "2023-10-05T02:01:57.230Z",
+        "updated_at": "2023-10-04T19:05:37.503Z",
+        "appointment_id": "4e80a721-938b-431c-b6a5-ea40c1a7ef4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8af1b157-1690-4809-82f9-b7d9663f0ded",
+        "experience": 336,
+        "specialization": "Chemical",
+        "availability": "Flexible",
+        "created_at": "2023-10-04T11:09:42.321Z",
+        "updated_at": "2023-10-04T17:41:56.362Z",
+        "appointment_id": "4e80a721-938b-431c-b6a5-ea40c1a7ef4b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a428432a-70a5-4b95-b0c1-1f29922ef118",
+        "email": "Walker.Treutel@roq.tech",
+        "firstName": "Lester",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13585282",
+        "tenantId": null
+      },
+      {
+        "reference": "d8be3565-a30b-4d00-a032-30352cb68983",
+        "email": "Blaise97@roq.tech",
+        "firstName": "Athena",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1193.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "69b87722-b785-4774-b9ce-58d65e950856",
+        "email": "Odell.Kling@roq.tech",
+        "firstName": "Isaac",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11348702",
+        "tenantId": null
+      },
+      {
+        "reference": "e6b787b9-cdf6-4881-a92d-e1ce714cb364",
+        "email": "Ciara99@roq.tech",
+        "firstName": "Dahlia",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29366434",
+        "tenantId": null
+      },
+      {
+        "reference": "d49404ef-b1a0-40be-9fe2-3c78c6fb2fc0",
+        "email": "Louie_McGlynn@roq.tech",
+        "firstName": "Sadie",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59419842",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "bike": [
+      {
+        "id": "33d4ea62-a8b2-4941-89e0-6a03524be29c",
+        "make": "Honda",
+        "model": "CBR500R",
+        "year": 21881,
+        "color": "Red",
+        "vin_number": "1HGBH41JXMN109186",
+        "created_at": "2023-10-05T02:57:49.638Z",
+        "updated_at": "2023-10-05T01:02:59.664Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ae348c7-491d-4dda-8f13-59848b9e3753",
+        "make": "Yamaha",
+        "model": "YZF-R6",
+        "year": 75402,
+        "color": "Blue",
+        "vin_number": "JH4DA1850GS000743",
+        "created_at": "2023-10-04T21:31:18.079Z",
+        "updated_at": "2023-10-04T16:36:41.847Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59986682-0a7e-464c-b88d-2bc95c87ed36",
+        "make": "Suzuki",
+        "model": "GSX-R750",
+        "year": 63886,
+        "color": "Black",
+        "vin_number": "JS1GN7DA8H2100056",
+        "created_at": "2023-10-05T03:13:47.291Z",
+        "updated_at": "2023-10-04T12:57:35.340Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91e34850-6a30-45a2-89bc-052df73855d2",
+        "make": "Kawasaki",
+        "model": "Ninja 400",
+        "year": 1693,
+        "color": "White",
+        "vin_number": "JKAZX2C1XGB502199",
+        "created_at": "2023-10-04T21:57:32.623Z",
+        "updated_at": "2023-10-05T06:57:20.140Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ded0f18f-768e-416e-b5d4-52b7c899a902",
+        "make": "Harley-Davidson",
+        "model": "Sportster Iron 883",
+        "year": 60801,
+        "color": "Silver",
+        "vin_number": "1HD1LEF11GY118986",
+        "created_at": "2023-10-05T04:33:58.281Z",
+        "updated_at": "2023-10-04T11:25:52.389Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "3d3ba098-be35-41fa-8bb2-fbb3500810c8",
+        "date": "2023-10-04T22:35:39.368Z",
+        "time": "2023-10-04T14:51:48.111Z",
+        "status": "Pending",
+        "notes": "Please bring your ID card.",
+        "created_at": "2023-10-04T13:43:18.680Z",
+        "updated_at": "2023-10-05T08:30:54.148Z",
+        "bike_id": "91e34850-6a30-45a2-89bc-052df73855d2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac5f8f3a-8e33-4032-be22-fc7878012131",
+        "date": "2023-10-05T01:43:12.812Z",
+        "time": "2023-10-05T03:29:48.331Z",
+        "status": "Confirmed",
+        "notes": "Arrive 10 minutes early.",
+        "created_at": "2023-10-05T04:33:24.385Z",
+        "updated_at": "2023-10-04T15:22:01.912Z",
+        "bike_id": "ded0f18f-768e-416e-b5d4-52b7c899a902",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b24026e-8f52-42ff-97f8-f4c5847e046f",
+        "date": "2023-10-04T19:28:28.044Z",
+        "time": "2023-10-04T18:14:49.326Z",
+        "status": "Cancelled",
+        "notes": "Bring any necessary documents.",
+        "created_at": "2023-10-05T02:30:41.875Z",
+        "updated_at": "2023-10-05T03:37:46.561Z",
+        "bike_id": "59986682-0a7e-464c-b88d-2bc95c87ed36",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39b7f0f6-8c37-41ee-b8f6-008d8961d8d5",
+        "date": "2023-10-04T13:00:50.002Z",
+        "time": "2023-10-04T11:45:37.912Z",
+        "status": "Completed",
+        "notes": "Payment due at appointment.",
+        "created_at": "2023-10-04T13:25:48.672Z",
+        "updated_at": "2023-10-05T00:26:45.424Z",
+        "bike_id": "59986682-0a7e-464c-b88d-2bc95c87ed36",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d727a88-1641-48ac-8043-64795f4424c3",
+        "date": "2023-10-04T09:47:35.649Z",
+        "time": "2023-10-04T12:49:25.201Z",
+        "status": "Rescheduled",
+        "notes": "Follow up appointment required.",
+        "created_at": "2023-10-04T22:02:05.189Z",
+        "updated_at": "2023-10-05T05:42:24.042Z",
+        "bike_id": "33d4ea62-a8b2-4941-89e0-6a03524be29c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_manager": [
+      {
+        "id": "f359161c-5902-43cf-a38d-4361673cbaf7",
+        "experience": 53662,
+        "management_level": "Junior",
+        "availability": "Full-time",
+        "created_at": "2023-10-05T01:36:43.449Z",
+        "updated_at": "2023-10-05T06:22:39.491Z",
+        "appointment_id": "3b24026e-8f52-42ff-97f8-f4c5847e046f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c40562b-29cf-4140-9abd-de5e51520894",
+        "experience": 38551,
+        "management_level": "Senior",
+        "availability": "Part-time",
+        "created_at": "2023-10-05T04:38:55.820Z",
+        "updated_at": "2023-10-04T19:37:00.235Z",
+        "appointment_id": "3b24026e-8f52-42ff-97f8-f4c5847e046f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7b80ced-af94-4a0e-bd5b-34a68f972fc6",
+        "experience": 28917,
+        "management_level": "Supervisor",
+        "availability": "On-call",
+        "created_at": "2023-10-04T11:14:56.590Z",
+        "updated_at": "2023-10-05T04:14:33.777Z",
+        "appointment_id": "39b7f0f6-8c37-41ee-b8f6-008d8961d8d5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e70713f-fba1-41a8-afe8-7ad767fadec7",
+        "experience": 42412,
+        "management_level": "Manager",
+        "availability": "Remote",
+        "created_at": "2023-10-04T11:13:08.136Z",
+        "updated_at": "2023-10-04T14:14:07.010Z",
+        "appointment_id": "5d727a88-1641-48ac-8043-64795f4424c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f716333f-5f05-4b79-aad8-eef9edce7822",
+        "experience": 32026,
+        "management_level": "Director",
+        "availability": "Flexible",
+        "created_at": "2023-10-04T16:14:47.310Z",
+        "updated_at": "2023-10-05T06:46:28.866Z",
+        "appointment_id": "39b7f0f6-8c37-41ee-b8f6-008d8961d8d5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_engineer": [
+      {
+        "id": "e03e1ef8-f5fc-41e3-b6a3-f523c7a38232",
+        "experience": 11118,
+        "specialization": "Software Development",
+        "availability": "Monday - Friday",
+        "created_at": "2023-10-04T12:02:31.643Z",
+        "updated_at": "2023-10-04T22:14:21.561Z",
+        "appointment_id": "3b24026e-8f52-42ff-97f8-f4c5847e046f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34cd7842-5e6f-4fdd-9668-fdf03992eebf",
+        "experience": 3062,
+        "specialization": "Network Security",
+        "availability": "Weekends only",
+        "created_at": "2023-10-05T04:12:17.418Z",
+        "updated_at": "2023-10-05T06:51:05.078Z",
+        "appointment_id": "5d727a88-1641-48ac-8043-64795f4424c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ad206e9-0e2d-40b5-850a-90e684b169cd",
+        "experience": 81312,
+        "specialization": "Database Administration",
+        "availability": "24/7",
+        "created_at": "2023-10-05T09:10:56.060Z",
+        "updated_at": "2023-10-05T00:08:35.820Z",
+        "appointment_id": "5d727a88-1641-48ac-8043-64795f4424c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49e1ec21-24d8-4650-9a3c-aec2a4147aba",
+        "experience": 15310,
+        "specialization": "Cloud Computing",
+        "availability": "Evenings only",
+        "created_at": "2023-10-04T15:26:12.802Z",
+        "updated_at": "2023-10-05T00:56:15.185Z",
+        "appointment_id": "3b24026e-8f52-42ff-97f8-f4c5847e046f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f04259b7-213a-4559-9df2-2f0d02393463",
+        "experience": 26802,
+        "specialization": "Artificial Intelligence",
+        "availability": "Flexible",
+        "created_at": "2023-10-05T02:36:16.902Z",
+        "updated_at": "2023-10-04T11:35:23.385Z",
+        "appointment_id": "3d3ba098-be35-41fa-8bb2-fbb3500810c8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c8dc93cd-2236-409d-b0e7-0e0ceb2413ae",
+        "email": "Guillermo69@roq.tech",
+        "firstName": "Bernadine",
+        "lastName": "Brekke-Kling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12022976",
+        "tenantId": null
+      },
+      {
+        "reference": "8e1fd455-b13f-4e66-9e3c-aeca63967972",
+        "email": "Gustave0@roq.tech",
+        "firstName": "Amaya",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/590.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "df367c20-f0a3-41f1-98b7-160a6013ffce",
+        "email": "Isac_Goldner9@roq.tech",
+        "firstName": "Florence",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1244.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e2dcbf4-3e23-47af-b17d-0060b6c6ce49",
+        "email": "Baylee.Klein99@roq.tech",
+        "firstName": "Yolanda",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87896062",
+        "tenantId": null
+      },
+      {
+        "reference": "fef50e16-2a04-4f1a-b410-37a8a87bb751",
+        "email": "Sebastian96@roq.tech",
+        "firstName": "Clare",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93710110",
+        "tenantId": null
+      }
+    ]
+  }
+]
